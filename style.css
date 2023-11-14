@@ -1,0 +1,158 @@
+http://127.0.0.1:3000/Capstone_CSSv5_bootstrap/index.html
+body{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16pt;
+    height:100vh;
+}
+
+.container{
+    justify-content: center;
+}
+
+.mylayout{
+    display:grid;
+    grid-template-columns: 250px minmax(400px,900px);
+    grid-template-rows: minmax(100px, 400px);
+    gap:25px;
+    border:none;
+    margin-top: 20px;
+    height:100vh;
+}
+
+.subset{
+    display:grid;
+    grid-template-columns: minmax(100px, 900px);
+    grid-template-rows:1fr;
+    gap:10px;
+}
+
+.subset div{
+    border:#2439DB solid 1px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.header{
+    font-size: 1.25rem;
+    text-align: center;
+    color:white;
+    background-color: #2439DB;
+    padding:5px;
+    }
+
+.header2{
+    font-size: 1.15rem;
+    text-align: left;
+    color:#2439DB;
+    background-color: white;
+    padding:5px;
+    } 
+
+.header-job{
+    font-size: 1.25rem;
+    text-align: left;
+    color:#2439DB;
+    background-color: white;
+    padding:5px;
+    }
+
+.header-job h2{
+    color:white;
+    background-color:#2439DB;
+}
+.header h1{
+    color:white;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color:white;
+    background-color: #2439DB;
+    padding:2px;
+}
+div h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#2439DB;
+    margin 0;
+    }
+    
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+li{
+    Color:black;
+}
+
+.desc {
+    font-size:
+    font-weight: 400;
+    color:black;
+}
+
+.lnk{
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-style: italic;
+    
+}
+.portrait{
+    width: 275px;
+    margin: 12px;
+    float:left;
+}
+
+.portraitv{
+    height: 200px;;
+    margin:12px;
+    float:left;
+}
+
+.logo{
+    width: 80px;
+    horizontal-align:bottom;
+    margin: 12px;
+    float:left;
+    padding: 0
+}
+.logoh{
+   height: 35px;
+    horizontal-align:bottom;
+    margin: 12px;
+    float:left;
+    padding: 0
+}
+.emph{
+    font-size:1.25rem;
+    font-weight: 300;
+}
+
+.animation{
+    max-width: 100%;
+}
+@media(max-width:576px){
+    body{
+        font-size: 10pt;
+    }
+   .mylayout{
+     display:grid;
+    grid-template-columns: minmax(100px,300px);
+    grid-template-rows: 1fr;
+    gap:10px;
+    border:none;
+    }
+.portrait{
+    width:100px;
+    margin:4px;
+    float:left;
+    }
+.portraitv{
+    height:100px;
+    margin:4px;
+    float:left;
+}
+}
