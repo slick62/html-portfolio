@@ -1,8 +1,7 @@
 // button links
 $(".home").click(function(){
     var buttonID=$(this).attr("id");
-    var URL=(".//pages/" + buttonID + ".html");
-    //  console.log(URL);
+    var URL=("./pages/" + buttonID + ".html");
     open(URL,"_self");
    });
 
@@ -10,15 +9,13 @@ $(".home").click(function(){
 $(".pages").click(function(){
     var buttonID=$(this).attr("id");
     var URL=("./"+ buttonID + ".html");
-     console.log(URL);
     open(URL,"_self");
    }); 
 
-   $(".back").click(function(){
+$(".back").click(function(){
     var buttonID=$(this).attr("id");
     var URL=("../"+ buttonID + ".html");
-     console.log(URL,"_self");
-    open(URL);
+    open(URL,"_self");
    }); 
 
    

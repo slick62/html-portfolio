@@ -1,4 +1,4 @@
-http://127.0.0.1:3000/Capstone_CSSv5_bootstrap/index.html
+/* http://127.0.0.1:3000/Capstone_CSSv5_bootstrap/index.html */
 body{
     font-family: 'Urbanist', sans-serif;
     font-size: 16pt;
@@ -134,7 +134,7 @@ li{
 .animation{
     max-width: 100%;
 }
-@media(max-width:576px){
+/* @media(max-width:576px){
     body{
         font-size: 10pt;
     }
@@ -155,4 +155,4 @@ li{
     margin:4px;
     float:left;
 }
-}
+} */
