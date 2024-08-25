@@ -72,19 +72,20 @@ h2{
     padding:2px;
 }
 div h3{
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color:#2439DB;
     margin 0;
     }
     
 p{
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 li{
-    Color:black;
+    font-size: .75rem;    
+    color:black;
 }
 
 .desc {
